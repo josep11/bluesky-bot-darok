@@ -6,12 +6,12 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@atproto/api": "^0.13.6",
-    "@atproto/oauth-client": "^0.2.0",
+    "@atproto/api": "^0.15.6",
+    "@atproto/oauth-client": "^0.3.16",
     "atproto-firehose": "^0.2.2",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.5.0",
     "readline-sync": "^1.4.10",
-    "zod": "^3.23.8"
+    "zod": "^3.24.4"
   },
   "description": "Sentiu!",
   "version": "1.0.0",
