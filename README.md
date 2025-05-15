@@ -90,10 +90,6 @@ Também faz um request para a [Date Muse API](https://www.datamuse.com/api/) par
 ## Uso
 
 Para iniciar o bot, execute:
-```bash
-node index.js
-```
-ou
 
 ```bash
 npm start

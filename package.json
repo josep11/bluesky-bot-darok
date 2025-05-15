@@ -1,26 +1,29 @@
 {
   "name": "bluesky-bot-darok",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
+  "description": "Sentiu!",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "peerDependencies": {
-    "typescript": "^5.5.4"
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "@atproto/api": "^0.15.6",
     "@atproto/oauth-client": "^0.3.16",
-    "atproto-firehose": "^0.2.2",
+    "@types/node": "^22.15.18",
     "dotenv": "^16.5.0",
     "readline-sync": "^1.4.10",
     "zod": "^3.24.4"
   },
-  "description": "Sentiu!",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "tsx": "^4.19.4"
+  }
 }
